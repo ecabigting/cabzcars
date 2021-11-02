@@ -27,6 +27,7 @@ const Image = styled.div`
         width:auto;
         height: 100%;
         border-radius: 5px;
+        margin-left: 10px;
     }
 `;
 
