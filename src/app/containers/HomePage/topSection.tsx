@@ -5,6 +5,7 @@ import tw from 'twin.macro';
 import OptimusIMG from '../../../assets/images/optimus.png'
 import BlobSVG from '../../../assets/images/blob.svg'
 import { SCREENS } from '../../components/responsive';
+import { Button } from '../../components/button';
 
 const TopSectionContainer = styled.div`
     min-height: 400px;
@@ -143,6 +144,14 @@ const StandAloneCarContainer = styled.div`
 
 `;
 
+const ButtonsContainer = styled.div`
+    ${tw`
+        flex
+        mt-4
+        flex-wrap
+    `}
+`;
+
 export function TopSection(){
     return <TopSectionContainer>
         <LeftContainer>
@@ -152,6 +161,10 @@ export function TopSection(){
             <Description>
                 Transform your experience to the next level with cabzcarz! You know you want to!
             </Description>
+            <ButtonsContainer>
+                <Button text="Book now!" />
+                <Button theme="filled" text="Inquire now!"/>
+            </ButtonsContainer>
         </LeftContainer>
         <RightContainer>
             <BlobContainer>
