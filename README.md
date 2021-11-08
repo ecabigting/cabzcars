@@ -12,4 +12,4 @@ An online car rental app build with React and Tailwind.
 
 **UNDER DEVELOPMENT - Check main branch for progress!**
 
-A running-demo of the app can be seen from [here](https://ecabigting-movieapp.netlify.app/).
+A running-demo of the app can be seen from [here](https://cabzcarz.netlify.app/).
