@@ -8,28 +8,8 @@
 ![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
+An online car rental app build with React and Tailwind.
 
-### The project SETUP
-To Bootstrap the project with yarn:
-```javascript
-yarn create react-app my-app --template redux-typescript
-```
+**UNDER DEVELOPMENT - Check main branch for progress!**
 
-To Bootstrap the project with npx:
-```javascript
-npx create-react-app my-app --template redux-typescript
-```
-
-Add Tailwind
-```javascript
-yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
-```
-
-Install Craco
-```javascript
-yarn add @craco/craco
-```
-
-Install Styled Components, twin.macro and react-responsive
-```javascript
-yarn add style-components twin.macro react-responsive
+A running-demo of the app can be seen from [here](https://ecabigting-movieapp.netlify.app/).
