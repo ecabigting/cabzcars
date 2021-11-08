@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-burger-menu": "^2.8.2",
     "@types/react-calendar": "^3.4.3",
     "@types/styled-components": "^5.1.15",
     "autoprefixer": "^9.8.8",
