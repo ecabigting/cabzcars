@@ -86,15 +86,16 @@ const DateCalendar = styled(Calendar)`
     max-width: none;
     top:3em;
     left:0;
-
-    ${({ offset } : any) => offset && css`
-        left:-6em;
-    `};
     
     @media (min-width: ${SCREENS.md}){
         top:3.5em;
         left:-1em;
     }
+
+    ${({ offset } : any) => offset && css`
+        left:-6.65em;
+    `};
+    
 `as any;
 
 export function BookCard() {
